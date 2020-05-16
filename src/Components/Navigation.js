@@ -56,7 +56,7 @@ export class Navigation extends Component {
                         <p>HOME</p> 
                     </a>
                     
-                    <a href="/contact" className="Navigation__link"> 
+                    <a href="/taksnoy_brawlstars/contact" className="Navigation__link"> 
                         <p >CONTACT</p>
                     </a>
 
