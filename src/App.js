@@ -12,14 +12,14 @@ import Contact from './Pages/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/'>
       <div>
         <Navigation/>
         <Switch>
             <Route path="/" exact>
               <Home/>
             </Route>
-            <Route path="/taksnoy_brawlstars/contact" >
+            <Route path="/contact" >
               <Contact/>
             </Route>
             <Route path="/terms" >

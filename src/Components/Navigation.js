@@ -30,7 +30,7 @@ export class Navigation extends Component {
                     <p className="Navigation__dropdown-link">HOME</p> 
                 </a>
                 
-                <a href="/taksnoy_brawlstars/contact"> 
+                <a href="/contact"> 
                     <p className="Navigation__dropdown-link">CONTACT</p>
                 </a>
 
@@ -56,7 +56,7 @@ export class Navigation extends Component {
                         <p>HOME</p> 
                     </a>
                     
-                    <a href="/taksnoy_brawlstars/contact" className="Navigation__link"> 
+                    <a href="/contact" className="Navigation__link"> 
                         <p >CONTACT</p>
                     </a>
 
