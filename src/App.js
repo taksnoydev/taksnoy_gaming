@@ -4,7 +4,7 @@ import Navigation from './Components/Navigation';
 import Footer from './Components/Footer';
 
 import {
-  BrowserRouter as Router, Switch, Route,
+  HashRouter as Router, Switch, Route,
 } from "react-router-dom";
 import Terms from './Pages/Terms';
 import Privacy from './Pages/Privacy';
