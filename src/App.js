@@ -2,10 +2,7 @@ import React from 'react';
 import Home from './Pages/Home';
 import Navigation from './Components/Navigation';
 import Footer from './Components/Footer';
-
-import {
-  BrowserRouter as Router, Switch, Route,
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Terms from './Pages/Terms';
 import Privacy from './Pages/Privacy';
 import Contact from './Pages/Contact';

@@ -9,10 +9,12 @@ const PopularUploads = () => {
         <div className="PopularUploads">
             <h1>POPULAR UPLOADS</h1>
             <div className="PopularUploads__video-box">
-                <iframe src={youtubeVideoLink.video1} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fs;" allowfullscreen="allowfullscreen" className="PopularUploads__video"></iframe>
-                <iframe src={youtubeVideoLink.video2} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fs;" allowfullscreen="allowfullscreen" className="PopularUploads__video"></iframe>
-                <iframe src={youtubeVideoLink.video3} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fs;" allowfullscreen="allowfullscreen" className="PopularUploads__video"></iframe>
-            </div>
+                {
+                    youtubeVideoLink.map( (video) =>{
+                        return <iframe src={video} key={video} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fs;" allowfullscreen="allowfullscreen" className="PopularUploads__video"></iframe>
+                    })
+                }
+           </div>
             <Button link={uploadLink} icon={<UploadIcon/>} text="Upload Yours"/>
         </div>
     )

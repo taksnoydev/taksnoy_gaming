@@ -5,6 +5,24 @@ import { ReactComponent as EditIcon} from "../Assets/Icons/scissors.svg";
 import { ReactComponent as UploadIcon} from "../Assets/Icons/youtube.svg";
 import ProcessItem from './ProcessItem';
 
+const processItems = [
+    {
+        title: "1. Submit",
+        text: "You submit video clips through our website",
+        icon: <SubmitIcon fill="white" className="AboutUs__process-icon"/>,
+    },
+    {
+        title: "2. Edit",
+        text: "We will review the clip and start editing within a week" ,
+        icon: <EditIcon fill="white" className="AboutUs__process-icon"/>,
+    },
+    {
+        title: "3. Upload",
+        text: "We will upload the video on youtube and social media",
+        icon: <UploadIcon fill="white" className="AboutUs__process-icon"/>,
+    }
+]
+
 const AboutUs = () => {
     return (
         <div className="AboutUs">
@@ -18,20 +36,16 @@ const AboutUs = () => {
                 </div>
 
                 <div className="AboutUs__process">
-                    <ProcessItem icon={<SubmitIcon fill="white" className="AboutUs__process-icon"/>}
-                        title="1. Submit"
-                        text="You submit video clips through our website"    
-                    />
-
-                    <ProcessItem icon={<EditIcon fill="white" className="AboutUs__process-icon"/>}
-                        title="2. Edit"
-                        text="We will review the clip and start editing within a week"    
-                    />
-
-                    <ProcessItem icon={<UploadIcon fill="white" className="AboutUs__process-icon"/>}
-                        title="3. Upload"
-                        text="We will upload the video on youtube and social media"    
-                    />
+                    {
+                        processItems.map(item =>{
+                            return <ProcessItem 
+                                title={item.title}
+                                text={item.text}
+                                icon={item.icon}
+                                key={item.title}
+                            />
+                        })
+                    }
                 </div>
             </div>
         </div>
