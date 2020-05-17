@@ -9,7 +9,7 @@ import Contact from './Pages/Contact';
 
 function App() {
   return (
-    <Router basename='/'>
+    <Router>
       <div>
         <Navigation/>
         <Switch>
