@@ -11,7 +11,7 @@ const PopularUploads = () => {
             <div className="PopularUploads__video-box">
                 {
                     youtubeVideoLink.map( (video) =>{
-                        return <iframe src={video} key={video} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fs;" allowfullscreen="allowfullscreen" className="PopularUploads__video"></iframe>
+                        return <iframe src={video} key={video} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fs;" allowFullScreen="allowfullscreen" className="PopularUploads__video"></iframe>
                     })
                 }
            </div>

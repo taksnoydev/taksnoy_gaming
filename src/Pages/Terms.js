@@ -7,7 +7,7 @@ export class Terms extends Component {
             <div className="Terms">
                 <div className="Terms__wrapper">
                     <h1>Terms & Conditions</h1>
-                    <p> Taksnoy Gaming (https://), Regularly post videos containing images, sounds and comments related to BrawlStars to users on YouTube, Instagram and other social media (“Taksnoy Gaming ”). </p>
+                    <p> Taksnoy Gaming (taksnoy.com), regularly post videos containing images, sounds and comments related to BrawlStars to users on YouTube, Instagram and other social media (“Taksnoy Gaming ”). </p>
                     
                     <h2>1. Terms</h2>
                     <p>By accessing the website, you agree to be bound by these terms and conditions, all applicable laws and regulations, and agree that you are responsible for complying with any applicable local laws. If you do not agree to any of these terms, you are prohibited from using or accessing this website. The materials on this website are protected by applicable copyright and trademark laws.</p>

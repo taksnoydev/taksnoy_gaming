@@ -7,7 +7,7 @@ export class Privacy extends Component {
             <div className="Privacy">
                 <div className="Privacy__wrapper">
                     <h1>Privacy Policy</h1>
-                    <p>Your privacy is important to us. It is Taksnoy Gaming’s policy to respect your privacy regarding any information we may collect from you across our website, https://网站, and other sites we own and operate.</p>
+                    <p>Your privacy is important to us. It is Taksnoy Gaming’s policy to respect your privacy regarding any information we may collect from you across our website, https://taksnoy.com, and other sites we own and operate.</p>
 
                     <h2>1. Information we collect</h2>
                     <p>When you fill out the submission form we may ask for the following personal information:</p>
