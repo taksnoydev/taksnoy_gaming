@@ -1,8 +1,8 @@
 import React from 'react'
 import './Header.scss';
 import { youtubeLink, uploadLink } from "../Links";
-import {ReactComponent as YoutubeIcon} from "../Assets/Icons/youtube.svg";
-import {ReactComponent as UploadIcon} from "../Assets/Icons/upload.svg";
+import { ReactComponent as YoutubeIcon } from "../Assets/Icons/youtube.svg";
+import { ReactComponent as UploadIcon } from "../Assets/Icons/upload.svg";
 import Button from "./Button";
 
 
@@ -18,7 +18,7 @@ const Header = () => {
                     <p>YouTube</p>
                     <YoutubeIcon fill="var(--color-white)"/>
                 </a>
-                <Button link={uploadLink} icon={<UploadIcon/>} text="Upload Yours"/>
+                <Button link={uploadLink} icon={<UploadIcon/>} color="amber" text="Upload Video"/>
 
                 <img src={require("../Assets/Images/Spike3.png")} alt="spike" className="Header__brawlers Header__brawlers--spike"/>
                 <img src={require("../Assets/Images/Nita1.png")} alt="nita" className="Header__brawlers Header__brawlers--nita"/>

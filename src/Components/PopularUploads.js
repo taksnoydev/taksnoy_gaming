@@ -1,8 +1,8 @@
 import React from 'react'
 import './PopularUploads.scss'
-import {ReactComponent as UploadIcon} from "../Assets/Icons/upload.svg";
+import { ReactComponent as YoutubeIcon } from "../Assets/Icons/youtube.svg";
 import Button from './Button';
-import { uploadLink, youtubeVideoLink } from "../Links";
+import { uploadLink, youtubeVideoLink, youtubeLink } from "../Links";
 
 const PopularUploads = () => {
     return (
@@ -15,7 +15,7 @@ const PopularUploads = () => {
                     })
                 }
            </div>
-            <Button link={uploadLink} icon={<UploadIcon/>} text="Upload Yours"/>
+            <Button link={uploadLink} icon={<YoutubeIcon fill="var(--color-white)"/>} color="red" text="View More"/>
         </div>
     )
 }

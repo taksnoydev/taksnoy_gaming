@@ -2,7 +2,10 @@ import React from 'react'
 import "./AboutUs.scss"
 import { ReactComponent as SubmitIcon} from "../Assets/Icons/cloud-upload.svg";
 import { ReactComponent as EditIcon} from "../Assets/Icons/scissors.svg";
-import { ReactComponent as UploadIcon} from "../Assets/Icons/youtube.svg";
+import { ReactComponent as YoutubeIcon} from "../Assets/Icons/youtube.svg";
+import { ReactComponent as UploadIcon } from "../Assets/Icons/upload.svg";
+import { uploadLink } from "../Links";
+import Button from "./Button";
 import ProcessItem from './ProcessItem';
 
 const processItems = [
@@ -19,7 +22,7 @@ const processItems = [
     {
         title: "3. Upload",
         text: "We will upload the video on youtube and social media",
-        icon: <UploadIcon fill="white" className="AboutUs__process-icon"/>,
+        icon: <YoutubeIcon fill="white" className="AboutUs__process-icon"/>,
     }
 ]
 
@@ -47,6 +50,9 @@ const AboutUs = () => {
                         })
                     }
                 </div>
+
+                <Button link={uploadLink} icon={<UploadIcon/>} color="amber" text="Get Started"/>
+
             </div>
         </div>
     )
