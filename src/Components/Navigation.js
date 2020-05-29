@@ -3,7 +3,7 @@ import "./Navigation.scss";
 import {ReactComponent as YoutubeIcon} from "../Assets/Icons/youtube2.svg";
 import {ReactComponent as Menu} from "../Assets/Icons/menu1.svg";
 import {ReactComponent as Close} from "../Assets/Icons/minus.svg";
-import {youtubeLink, uploadLink} from "../Constants";
+import {youtubeLink, uploadLink} from "../Links";
 
 export class Navigation extends Component {
 
@@ -34,10 +34,10 @@ export class Navigation extends Component {
                     <p className="Navigation__dropdown-link">CONTACT</p>
                 </a>
 
-                <a href={uploadLink} target="_blank">
+                <a href={uploadLink} target="_blank" rel="noopener noreferrer">
                     <p className="Navigation__dropdown-link">UPLOAD</p>
                 </a>
-                <a href={youtubeLink} target="_blank" >
+                <a href={youtubeLink} target="_blank" rel="noopener noreferrer">
                     <YoutubeIcon fill="var(--color-blue)" className="Navigation__dropdown-youtube"/>
                 </a>
             </div>
@@ -60,10 +60,10 @@ export class Navigation extends Component {
                         <p >CONTACT</p>
                     </a>
 
-                    <a href={uploadLink} target="_blank" className="Navigation__upload">
+                    <a href={uploadLink} target="_blank" rel="noopener noreferrer" className="Navigation__upload">
                         <p>UPLOAD</p>
                     </a>
-                    <a href={youtubeLink} target="_blank" className="Navigation__youtube-icon">
+                    <a href={youtubeLink} target="_blank" rel="noopener noreferrer" className="Navigation__youtube-icon">
                         <YoutubeIcon fill="var(--color-blue)"/>
                     </a>
                     {menu}

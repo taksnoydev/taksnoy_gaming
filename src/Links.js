@@ -8,7 +8,7 @@ export const contactLink = "//www.123formbuilder.com/my-contact-form-5464437.htm
 
 //Youtube Video Links
 export const youtubeVideoLink = [
-    "https://www.youtube.com/embed/x6mFelORsrA", 
-    "https://www.youtube.com/embed/J0aOcxh47zw",
+    "https://www.youtube.com/embed/PXk3Omu59QI", 
     "https://www.youtube.com/embed/EdsPLCbuZyg",
+    "https://www.youtube.com/embed/Qve81XDIuVE",
 ]
