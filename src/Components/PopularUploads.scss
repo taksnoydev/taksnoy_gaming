@@ -78,4 +78,33 @@
             height: 140px;
         }
     }
+
+    &__viewmore{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: black;
+        padding: 1.5rem;
+        border-bottom: 1.5px solid black;
+
+        p{
+            transition: all .2s;
+            margin-right: 1rem;
+        }
+
+        &:hover{
+            cursor: pointer;
+            border-radius: 5px;
+            background-color: red;
+            color: white;
+            border-bottom: 1.5px solid red;
+
+            p{
+                margin-right: 2rem;
+            }
+        }
+
+    }
 }

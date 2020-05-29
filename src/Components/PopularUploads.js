@@ -1,7 +1,5 @@
 import React from 'react'
 import './PopularUploads.scss'
-import { ReactComponent as YoutubeIcon } from "../Assets/Icons/youtube.svg";
-import Button from './Button';
 import { youtubeVideoLink, youtubeLink } from "../Links";
 
 const PopularUploads = () => {
@@ -15,7 +13,10 @@ const PopularUploads = () => {
                     })
                 }
            </div>
-            <Button link={youtubeLink} icon={<YoutubeIcon fill="var(--color-white)"/>} color="red" text="View More"/>
+           <a href={youtubeLink} target="_blank" rel="noopener noreferrer" className="PopularUploads__viewmore">
+                <p>View More</p>
+                &rarr;
+           </a>
         </div>
     )
 }
