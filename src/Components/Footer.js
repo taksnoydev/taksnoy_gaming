@@ -18,7 +18,7 @@ const Footer = () => {
                 <a href={youtubeLink} target="_blank" rel="noopener noreferrer"><YoutubeIcon/></a>
                 <a href={instagramLink} target="_blank" rel="noopener noreferrer"><InstagramIcon/></a>
             </div>
-            <p>Taksnoy Brawlstars &copy; 2020</p>
+            <p>Taksnoy Gaming &copy; 2020</p>
             <a href="https://www.supercell.com/fan-content-policy." target="_blank" rel="noopener noreferrer">
             <p>Brawl Stars is a registered trademark of Supercell. This website is unofficial and is not endorsed by Supercell. Images used with permission under Supercell's Fan Content Policy. For more information see Supercell's Fan Content Policy: www.supercell.com/fan-content-policy.</p>
             </a>

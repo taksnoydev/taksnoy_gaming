@@ -11,7 +11,7 @@ const Header = () => {
         <div className="Header">
             <div className="Header__wrapper">
                 <div className="Header__text">
-                    <h1>Taksnoy BrawlStars</h1>
+                    <h1>Taksnoy Gaming</h1>
                     <h2>Hightlight your pro-gamer moves and funny moments.</h2>
                 </div>
                 <a href={youtubeLink} target="_blank" rel="noopener noreferrer" className="Header__button Header__button--youtube">
