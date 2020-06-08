@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Introduction:
+This website is a promotional website for YouTube Channel Taksnoy BrawlStars (https://www.youtube.com/channel/UCgMehiFiyrGUVH1pPX5zj6w). Users can checkout the YouTube channel and upload BrawlStars game clips through this website.
+
+## Disclaimer:
+Brawl Stars is a registered trademark of Supercell. This website is unofficial and is not endorsed by Supercell. Images used with permission under Supercell's Fan Content Policy. For more information see Supercell's Fan Content Policy: www.supercell.com/fan-content-policy.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -11,11 +17,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `yarn build`
 
